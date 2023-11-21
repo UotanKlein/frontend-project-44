@@ -11,7 +11,7 @@ brain-calc: # Запуск игры Калькулятор.
 	node bin/brain-calc.js	
 
 brain-gcd: # Запуск игры Найти общий делитель.
-	node bin/brain-gcd.js	
+	node bin/brain-gcd.js
 
 brain-progression: # Запуск игры Найти пропущенный член прогрессии.
 	node bin/brain-progression.js
@@ -24,3 +24,6 @@ publish: # Публикация.
 
 lint: # Запуск линтера.
 	npx eslint .
+
+test: # Запуск теста.
+	npm test
