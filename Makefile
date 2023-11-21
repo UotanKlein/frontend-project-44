@@ -13,6 +13,9 @@ brain-calc: # Запуск игры Калькулятор.
 brain-gcd: # Запуск игры Найти общий делитель.
 	node bin/brain-gcd.js	
 
+brain-progression: # Запуск игры Найти пропущенный член прогрессии.
+	node bin/brain-progression.js	
+
 publish: # Публикация.
 	npm publish --dry-run
 

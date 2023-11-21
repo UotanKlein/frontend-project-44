@@ -5,6 +5,7 @@ import getName from './src/cli.js';
 import gameEvenOrNo from './src/even.js';
 import gameCalculator from './src/calc.js';
 import gameFindGCD from './src/gcd.js';
+import gameProgression from './src/progression.js';
 
 export default function gameBrain(game) {
     console.log('Welcome to the Brain Games!');
@@ -23,7 +24,11 @@ export default function gameBrain(game) {
     case 'gcd':
         console.log('Find the greatest common divisor of given numbers.');
         func = () => gameFindGCD();
-    break;
+        break;
+    case 'progression':
+        console.log('What number is missing in the progression?');
+        func = () => gameProgression();
+        break;
     default:
         return;
     }
@@ -35,6 +40,7 @@ export default function gameBrain(game) {
             console.log('Correct!');
         } else {
             console.log(`'${answer}' is wrong answer ;(. Correct answer was '${correct}'.`);
+            console.log(`Let's try again, ${correct}!`)
             return;
         }
     }
