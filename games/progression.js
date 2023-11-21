@@ -1,6 +1,6 @@
 export default function gameProgression() {
     let first = Math.round(Math.random() * 20);
-    const randomValue = Math.round(Math.random() * 10);
+    const randomValue = Math.round(Math.random() * 9);
     const progression = Math.round(Math.random() * 10);
     let result = '';
     let correct;
