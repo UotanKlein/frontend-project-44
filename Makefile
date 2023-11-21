@@ -28,5 +28,5 @@ lint: # Запуск линтера.
 test: # Запуск теста.
 	npm test
 
-report:
-	./gradlew test jacocoTestReport
+test-coverage:
+	npm test -- --coverage --coverageProvider=v8
