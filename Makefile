@@ -7,8 +7,11 @@ brain-games: # Запуск игры.
 brain-even: # Запуск игры Even or No.
 	node bin/brain-even.js	
 
-brain-calc: # Запуск игры Even or No.
+brain-calc: # Запуск игры Калькулятор.
 	node bin/brain-calc.js	
+
+brain-gcd: # Запуск игры Найти общий делитель.
+	node bin/brain-gcd.js	
 
 publish: # Публикация.
 	npm publish --dry-run

@@ -17,7 +17,7 @@ export default function gameCalculator() {
             correct = randomNum * randomNum2;
             break;
         default:
-            return;
+            return undefined;
     }
     return [`${randomNum} ${operation[randomOperation]} ${randomNum2}`, correct];
 }

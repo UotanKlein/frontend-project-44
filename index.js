@@ -4,6 +4,7 @@ import readlineSync from 'readline-sync';
 import getName from './src/cli.js';
 import gameEvenOrNo from './src/even.js';
 import gameCalculator from './src/calc.js';
+import gameFindGCD from './src/gcd.js';
 
 export default function gameBrain(game) {
     console.log('Welcome to the Brain Games!');
@@ -19,6 +20,10 @@ export default function gameBrain(game) {
         console.log('What is the result of the expression?');
         func = () => gameCalculator();
         break;
+    case 'gcd':
+        console.log('Find the greatest common divisor of given numbers.');
+        func = () => gameFindGCD();
+    break;
     default:
         return;
     }

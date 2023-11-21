@@ -7,3 +7,7 @@ parserOptions:
   sourceType: module
 rules:
   indent: 'off'
+  import/extensions:
+    - error
+    - always
+    - ignorePackages: true
