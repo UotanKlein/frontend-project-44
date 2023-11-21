@@ -1,5 +1,3 @@
-/* eslint-disable no-console */
-
 function primeFactors(number) {
     let num = number;
     const factors = [];

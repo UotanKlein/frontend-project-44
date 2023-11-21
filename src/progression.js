@@ -1,5 +1,3 @@
-/* eslint-disable no-console */
-
 export default function gameProgression() {
     let first = Math.round(Math.random() * 20);
     const randomValue = Math.round(Math.random() * 10);

@@ -6,6 +6,7 @@ import gameEvenOrNo from './src/even.js';
 import gameCalculator from './src/calc.js';
 import gameFindGCD from './src/gcd.js';
 import gameProgression from './src/progression.js';
+import gameIsPrime from './src/prime.js';
 
 export default function gameBrain(game) {
     console.log('Welcome to the Brain Games!');
@@ -29,6 +30,10 @@ export default function gameBrain(game) {
         console.log('What number is missing in the progression?');
         func = () => gameProgression();
         break;
+    case 'prime':
+        console.log('Answer "yes" if given number is prime. Otherwise answer "no".');
+        func = () => gameIsPrime();
+        break;
     default:
         return;
     }
@@ -40,7 +45,7 @@ export default function gameBrain(game) {
             console.log('Correct!');
         } else {
             console.log(`'${answer}' is wrong answer ;(. Correct answer was '${correct}'.`);
-            console.log(`Let's try again, ${correct}!`)
+            console.log(`Let's try again, ${correct}!`);
             return;
         }
     }

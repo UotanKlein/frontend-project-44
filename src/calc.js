@@ -1,5 +1,3 @@
-/* eslint-disable no-console */
-
 export default function gameCalculator() {
     const operation = ['+', '-', '*'];
     const randomNum = Math.round(Math.random() * 100);
