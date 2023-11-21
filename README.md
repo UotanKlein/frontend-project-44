@@ -9,8 +9,9 @@ make install
 
 ─────────────────────────────────────────────────────────────────────────────────────────
 
-## make brain-games
+## Welcome
 
+### Command: make brain-games
 ### Examle:
 ```
 Welcome to the Brain Games!
@@ -20,8 +21,9 @@ Hello, John!
 
 ─────────────────────────────────────────────────────────────────────────────────────────
 
-## make brain-even
+## Game Even or not
 
+### Command: make brain-even
 ### Examle:
 ```
 Answer "yes" if the number is even, otherwise answer "no".
@@ -37,8 +39,9 @@ Your answer: no
 
 ─────────────────────────────────────────────────────────────────────────────────────────
 
-## make brain-calc
+## Game Calculator
 
+### Command: make brain-calc
 ### Examle:
 ```
 What is the result of the expression?
@@ -54,8 +57,9 @@ Your answer: 27
 
 ─────────────────────────────────────────────────────────────────────────────────────────
 
-## make brain-gcd
+## Game Greatest common divisor
 
+### Command: make brain-gcd
 ### Examle:
 ```
 Find the greatest common divisor of given numbers.
@@ -71,8 +75,9 @@ Your answer: 4
 
 ─────────────────────────────────────────────────────────────────────────────────────────
 
-## make brain-progression
+## Game Find a member of the progression
 
+### Command: make brain-progression
 ### Examle:
 ```
 What number is missing in the progression?
@@ -88,8 +93,9 @@ Your answer: 58
 
 ─────────────────────────────────────────────────────────────────────────────────────────
 
-## make brain-prime
+## Game Prime or not
 
+### Command: make brain-prime
 ### Examle:
 ```
 Answer "yes" if given number is prime. Otherwise answer "no".
