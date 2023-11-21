@@ -7,8 +7,6 @@
 make install
 ```
 
-─────────────────────────────────────────────────────────────────────────────────────────
-
 ## Welcome
 
 ### Command: make brain-games
@@ -18,8 +16,6 @@ Welcome to the Brain Games!
 May I have your name? John
 Hello, John!
 ```
-
-─────────────────────────────────────────────────────────────────────────────────────────
 
 ## Game Even or not
 
@@ -37,8 +33,6 @@ Your answer: no
 'no' is wrong answer. Correct answer was 'yes'.
 ```
 
-─────────────────────────────────────────────────────────────────────────────────────────
-
 ## Game Calculator
 
 ### Command: make brain-calc
@@ -54,8 +48,6 @@ Question: 79 - 51
 Your answer: 27
 '27' is wrong answer. Correct answer was '28'.
 ```
-
-─────────────────────────────────────────────────────────────────────────────────────────
 
 ## Game Greatest common divisor
 
@@ -73,8 +65,6 @@ Your answer: 4
 '4' is wrong answer. Correct answer was '5'.
 ```
 
-─────────────────────────────────────────────────────────────────────────────────────────
-
 ## Game Find a member of the progression
 
 ### Command: make brain-progression
@@ -90,8 +80,6 @@ Question: 14 19 24 29 34 39 44 49 54 ..
 Your answer: 58
 '58' is wrong answer. Correct answer was '59'.
 ```
-
-─────────────────────────────────────────────────────────────────────────────────────────
 
 ## Game Prime or not
 
