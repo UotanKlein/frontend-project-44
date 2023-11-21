@@ -7,6 +7,9 @@ brain-games: # Запуск игры.
 brain-even: # Запуск игры Even or No.
 	node bin/brain-even.js	
 
+brain-calc: # Запуск игры Even or No.
+	node bin/brain-calc.js	
+
 publish: # Публикация.
 	npm publish --dry-run
 
