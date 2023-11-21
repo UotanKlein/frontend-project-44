@@ -1,0 +1,8 @@
+version: '2'
+plugins:
+  codeclimate-eslint:
+    enabled: true
+  codeclimate-test-reporter:
+    enabled: true
+    coverage:
+      enabled: true
