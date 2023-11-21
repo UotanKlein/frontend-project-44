@@ -2,11 +2,11 @@
 [![Actions Status](https://github.com/UotanKlein/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/UotanKlein/frontend-project-44/actions)
 
 
-##Setup
+## Setup
 ```
 make install
 ```
-##Run tests
+## Run tests
 ```
 make test
 ```
