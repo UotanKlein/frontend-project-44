@@ -14,8 +14,8 @@ function primeFactors(number) {
 }
 
 export default function gameFindGCD() {
-  const randomNum = Math.round(Math.random() * 100);
-  const randomNum2 = Math.round(Math.random() * 100);
+  const randomNum = Math.ceil(Math.random() * 100);
+  const randomNum2 = Math.ceil(Math.random() * 100);
   const first = primeFactors(randomNum);
   const second = primeFactors(randomNum2);
 

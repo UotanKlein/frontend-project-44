@@ -1,5 +1,5 @@
 function isPrimeNumber(num) {
-  if (num === 0 || num === 1) {
+  if (num === 1) {
     return false;
   }
   let i = 2;
@@ -13,7 +13,7 @@ function isPrimeNumber(num) {
 }
 
 export default function gameIsPrime() {
-  const num = Math.round(Math.random() * 1000);
+  const num = Math.ceil(Math.random() * 1000);
 
   const correct = isPrimeNumber(num) ? 'yes' : 'no';
 
