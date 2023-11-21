@@ -1,8 +1,4 @@
-version: '2'
-plugins:
-  codeclimate-eslint:
-    enabled: true
-  codeclimate-test-reporter:
-    enabled: true
-    coverage:
-      enabled: true
+version: 2
+coverage:
+  enabled: true
+  range: [70, 90] # настройте диапазон целевого покрытия кода

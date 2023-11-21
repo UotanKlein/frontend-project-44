@@ -27,3 +27,6 @@ lint: # Запуск линтера.
 
 test: # Запуск теста.
 	npm test
+
+report:
+	./gradlew test jacocoTestReport
