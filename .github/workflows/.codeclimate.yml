@@ -1,4 +1,0 @@
-version: 2
-coverage:
-  enabled: true
-  range: [70, 90] # настройте диапазон целевого покрытия кода
