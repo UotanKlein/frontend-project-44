@@ -1,11 +1,13 @@
 ---
 
 plugins:
+  - babel
   - jest
 
 # https://eslint.org/docs/user-guide/configuring#specifying-environments
 env:
   node: true
+  jest: true
 
 extends:
   - 'airbnb-base'
@@ -21,3 +23,4 @@ rules:
     - ignorePackages
     - js: always
   no-underscore-dangle: [2, { "allow": ["__filename", "__dirname"] }]
+
